@@ -1,2 +1,7 @@
 def abbreviate(words):
-    pass
+    acronym = "".join(word[0] for word in words.split())
+    return acronym
+
+
+
+
